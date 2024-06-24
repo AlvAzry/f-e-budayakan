@@ -1,0 +1,163 @@
+.profil-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  
+  .profile-button {
+    background-color: transparent; /* Blue background */
+    color: #fff; /* White text */
+    border: transparent;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profile-button:hover {
+    background-color: transparent; /* Darker blue on hover */
+  }
+  
+  
+  .profil-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profil-image {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-left: 140px;
+    margin-bottom: 200px;
+  }
+  
+  .profil-details {
+    flex: 1;
+    margin-left: 150px;
+  }
+  
+  .profil-details h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .profil-details form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px 10px;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 1rem;
+    color: #333;
+    background-color: transparent;
+    outline: none;
+  }
+  
+  .profil-footer {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -225px;
+    margin-bottom: 180px;
+    margin-left: 60px;
+  }
+  
+  .edit-button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    background-color: #34745C;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .tbl-button:hover {
+    background-color: rgb(173, 15, 15);
+  }
+  .form-group .size-label{
+    font-size: 12px;
+  }
+  .form-group .size-input{
+    font-size: 16px;
+  }
+  .edit-button {
+    margin-left: 110px;
+  }
+
+  .save-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    background-color: #34745C;
+    color: white;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* Tambahkan jarak atas */
+    margin-left: 190px;
+}
+
+.save-button:hover {
+  background-color: rgb(173, 15, 15);
+}
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparan */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.modal p {
+  margin-bottom: 20px;
+}
+
+.modal button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #34745C;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.modal button:hover {
+  background-color: rgb(173, 15, 15);
+}

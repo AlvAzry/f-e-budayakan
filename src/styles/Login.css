@@ -1,0 +1,124 @@
+.wrapper-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+  }
+  
+  .login-section {
+    display: flex;
+    width: 100%;
+    max-width: 850px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .login1, .login2 {
+    flex: 1;
+    padding: 20px; /* Atur sesuai kebutuhan */
+  }
+  
+  .size-daftar-akun{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-family: 'inter', sans-serif;
+    margin-bottom: 25px;
+  }
+
+  .login1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .logo-img {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .google-login {
+    display: flex;
+    width: 30%;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 20px;
+    border: 1px solid #9c9b9b;
+  }
+  
+  .google-img {
+    width: 20px;
+    margin-right: 6px;
+  }
+  .size-daftar{
+    font-size: 14px;
+    color: #000000;
+    font-weight: 550;
+  }
+  
+  .separator {
+    margin: 10px 0px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-group .size-form{
+    font-size: 12px;
+    font-family: 'inter', sans-serif;
+    color: #000000;
+  }
+  
+  .form-group {
+    width: 60%;
+    margin-bottom: 15px;
+  }
+  .form-group .signup-button{
+    text-align: center;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .signup-button {
+    width: 100%;
+    background-color: #34745C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 25px;
+  }
+  
+  .login2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login2-img {
+    max-width: 100%;
+    height: auto;
+  }
+  

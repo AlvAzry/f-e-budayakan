@@ -1,0 +1,122 @@
+.video-recommendation-container {
+    display: flex;
+    flex-direction: row; /* Mengatur item secara horizontal */
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%; /* Mengatur lebar kontainer */
+  }
+  
+  .shared-box {
+    background: white;
+    box-shadow: 0px 0px 6px rgb(94, 93, 93);
+    border-radius: 18px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column; /* Memastikan penyelarasan yang tepat */
+    width: 30%; /* Membuat kotak menyesuaikan dengan ukuran kontennya */
+  }
+  .shareds-box {
+    background: white;
+    box-shadow: 0px 0px 6px rgb(94, 93, 93);
+    border-radius: 20px;
+    padding: 0px 5px 1px 5px;
+    display: flex; /* Memastikan kotak menyesuaikan konten di dalamnya */
+    flex-direction: column; /* Memastikan penyelarasan yang tepat */
+    width:70%; /* Membuat kotak menyesuaikan dengan ukuran kontennya */
+  }
+  
+  .content-video1 {
+    width: 100%; /* Mengatur lebar gambar sesuai dengan lebar kontainer */
+    max-width: 800px; /* Membatasi lebar maksimum gambar */
+    height: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+  
+  .text-content-video {
+    display: flex;
+    flex-direction: column; /* Mengatur item secara vertikal */
+    align-items: flex-start;
+    width: 30%; /* Mengatur lebar konten teks */
+  }
+  
+  .text-content-video img {
+    margin-bottom: 10px; /* Menambahkan jarak antara gambar dan elemen lainnya */
+    width: 100%;
+    max-width: 200px;
+    height: auto; /* Memastikan gambar mempertahankan rasio aspeknya */
+  }
+  
+  .rekomendasih2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #8B8A8A;
+  }
+  
+  .rekom-img {
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgb(94, 93, 93);
+  }
+  
+  .desk-sejajar {
+    margin-top: 30px;
+  }
+  .desk-size{
+    font-size: 11px;
+  }
+  .views-size{
+    font-size: 8px;
+  }
+  .jarak1{
+    margin-bottom: -20px;
+    margin-top: -15px;
+  }
+  
+  .img-desk {
+    display: flex;
+    align-items: center;
+    flex-direction: row; /* Mengatur item secara vertikal */
+    padding-left: 6px;
+  }
+  .img-deskripsi{
+    justify-content: center;
+    margin-left: 10px;
+    max-width: 100%;
+  }
+  .img-desk img {
+    width: 150px; /* Atur lebar gambar sesuai kebutuhan */
+    height: auto;
+  }
+  .keduashared-box {
+    background: white;
+    box-shadow: 0px 0px 6px rgb(94, 93, 93);
+    border-radius: 18px;
+    padding: 5px;
+    display: flex; /* Memastikan kotak menyesuaikan konten di dalamnya */
+    flex-direction: column;
+    width: 30%; /* Membuat kotak menyesuaikan dengan ukuran kontennya */
+  }
+  .deskripsi-video-kolom{
+    padding: 10px;
+    text-align: justify;
+  }
+  .color-artikel{
+    color: #8B8A8A;
+  }
+  .jarak3{
+    margin-bottom: 25px;
+    color: #333131;
+  }
+  .jarak4{
+    margin-top: -20px;
+  }
+  .jarak5{
+    margin-top: -6px;
+  }
+  .size-jarak6{
+    font-size: 16px;
+    color: #34745C;
+  }
+  .colorh3{
+    color: #34745C;
+  }

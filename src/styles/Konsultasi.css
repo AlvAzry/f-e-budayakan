@@ -1,0 +1,66 @@
+.wrapper{
+    font-family: 'inter', sans-serif;
+}
+#intro3 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+.kolom5 h5, .kolom5 h6, .kolom5 p {
+    margin: 5px 0;
+    font-family: 'inter', sans-serif;
+}
+.tbl-hijau{
+    background-color: #34745C;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+.price-chat p {
+    margin: 0;
+}
+.price-chat{
+    display: flex; /* Mengatur elemen secara horizontal */
+    justify-content: center; /* Memusatkan elemen secara horizontal */
+    align-items: center; /* Menyelaraskan elemen secara vertikal */
+    gap: 170px; /* Jarak antara elemen */
+}
+.kolom4 img, .kolom5 img {
+    width: 100%;
+    border-radius: 8%;
+}
+.kolom4, .kolom5 {
+    max-width: 300px;
+    margin: 20px;
+    margin: 20px;
+    text-align: center;
+
+}
+.kolom5 h5, .kolom5 h6{
+    text-align: left;
+    width: 100%;
+    margin: 10px 0;
+}
+.kolom5, .h5{
+    color: #000000;
+}
+.colorh6{
+    color: #838080;
+}
+#konsultasi .kolom {
+    display: flex;
+    gap: 80px;
+}
+.text-content-konsultasi {
+    padding-top: 100px; /* Adjust the value as needed */
+}
+#konsultasi img{
+    max-width: 40%;
+}
+#kata-pembatas .pembatash3{
+    margin-bottom: 10px;
+}
+

@@ -1,0 +1,51 @@
+.wrapper {
+    padding: 20px;
+    font-family: 'inter', sans-serif;
+  }
+
+.h2 p{
+    font-family: 'inter', sans-serif;
+}
+  .kolom {
+    margin: 20px 0;
+  }
+  
+  .image-text-container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .beranda-gambar {
+    max-width: 50%; /* Atur ukuran gambar sesuai kebutuhan */
+    height: auto;
+    margin-right: 20px; /* Spasi antara gambar dan teks */
+    margin-top: 20px; /* Menggeser gambar ke bawah */
+    height: 415px; /*Atur tinggi gambar sesuai kebutuhan */
+
+  }
+  
+  .text-content {
+    flex: 1;
+  }
+  
+  .text-content p {
+    margin: 0 0 10px; /* Spasi bawah untuk paragraf */
+    text-align: justify; /* Membuat teks menjadi rata kiri dan kanan */
+    font-size: 16px;
+  }
+  .kolom .beranda-gambar {
+    margin-top: 10px; /* Atur jarak bawah judul h2 */
+  }
+  .text-content-below {
+    margin-top: 20px; /* Memberikan jarak antara gambar dan teks di bawahnya */
+  }
+  
+  .text-content-below p {
+    text-align: justify; /* Membuat teks menjadi rata kiri dan kanan */
+    font-size: 16px; /* Mengatur ukuran font paragraf menjadi 16px */
+  }
+  #artikel h1 {
+    margin-left: 20px; /* Menggeser teks sedikit ke kanan */
+  }

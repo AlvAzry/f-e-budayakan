@@ -1,0 +1,253 @@
+.wrapper {
+    padding: 20px;
+  }
+
+.h2 p{
+    font-family: 'inter', sans-serif;
+}
+  .kolom {
+    margin: 20px 0;
+  }
+  
+  .image-text-container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .informasi-gambar {
+    max-width: 5000px; /* Atur lebar maksimum gambar */
+    width: 100%; /* Pastikan gambar menyesuaikan dengan max-width */
+    height: auto;
+    margin-right: 10px; /* Spasi antara gambar dan teks */
+    margin-top: 20px; /* Menggeser gambar ke bawah */
+    margin-bottom: 10px;
+
+  }
+  /* Tips & Trik */
+  .text-content-informasi {
+    flex: 1;
+    margin-top: 20px;
+  }
+
+  .text-content-informasi h2{
+    font-size: 20px;
+    margin-top: -8px;
+    margin-bottom: -10px;
+  }
+  
+.kolom .informasi-gambar {
+    margin-top: 10px; /* Atur jarak bawah judul h2 */
+  }
+  /* kolom2 */
+/* CSS untuk bagian artikel */
+
+
+.kolom-informasi {
+  display: flex;
+  flex-direction: column; /* Menyusun elemen dalam kolom secara vertikal */
+  align-items: center; /* Menyelaraskan elemen ke tengah dalam kolom */
+  text-align: center; /* Menyelaraskan teks ke tengah */
+  max-width: 300px; /* Atur lebar maksimum kolom */
+  background: white;
+  box-shadow: 0px 4px 8px rgb(94, 93, 93);
+  border-radius: 18px;
+  padding: 5px;
+}
+
+.kolom-informasi img {
+  max-width: 100%; /* Pastikan gambar menyesuaikan dengan lebar kolom */
+  height: auto;
+}
+
+.kolom-informasi h4, .kolom-informasi p {
+  margin: 10px 0; /* Jarak antara elemen */
+  font-family: 'Inter', sans-serif; /* Terapkan font */
+}
+.kolom-informasi h4{
+  text-align: center;
+}
+.kolom-informasi p{
+  text-align: justify;
+}
+
+.kolom-informasi .tentangkami-gambar {
+  margin-top: 10px; /* Atur jarak bawah judul h2 */
+}
+#infromasi2 .informasi2{
+  margin-top: -50px; /* Atur jarak atas dari div */
+  margin-bottom: 20px; /* Atur jarak bawah dari div */
+  padding: 20px; /* Opsional: Berikan padding agar konten tidak menempel pada tepi */
+}
+#tips-trik { /* Mengatur jarak di sekitar seluruh section jika diperlukan */
+  margin-top: 10px; 
+  margin-bottom: 20px;
+}
+
+.tips-trik {
+  background-color: #34745C; /* Memberikan background warna hijau */
+  padding: 20px; /* Memberikan padding agar konten tidak menempel pada tepi */
+  border-top-left-radius: 50px;
+  font-family: 'inter', sans-serif;
+  color: white;
+  font-size: 25px;
+  border-bottom-right-radius: 50px;
+  text-align: center; /* Opsional: Menyelaraskan teks ke tengah */
+}
+
+#intro4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.kolom-informasi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.kolom-informasi img {
+    width: 100%; /* Sesuaikan gambar dengan lebar div */
+    height: 220px; /* Tetapkan tinggi tetap */
+    object-fit: cover; /* Memastikan gambar menyesuaikan tanpa distorsi */
+    border-radius: 8%;
+    max-width: 400px;
+    max-height: 180px;
+}
+
+.kolom-informasi p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #242424;
+  text-align: center;
+}
+.text-content-informasi p {
+  text-align: justify; /* Membuat teks menjadi rata kiri dan kanan */
+}
+.posisi{
+  text-align: center;
+}
+.content-below {
+  margin-top: 50px; /* Memberikan jarak antara gambar dan teks di bawahnya */
+}
+
+/* video tutorial */
+#desk-video-tutor {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.desk-video-tutor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.desk-video-tutor img {
+  width: 100%; /* Sesuaikan gambar dengan lebar div */
+    height: 220px; /* Tetapkan tinggi tetap */
+    object-fit: cover; /* Memastikan gambar menyesuaikan tanpa distorsi */
+    border-radius: 8%;
+    max-width: 400px;
+    max-height: 180px;
+}
+
+.desk-video p {
+  text-align: justify; /* Membuat teks menjadi rata kiri dan kanan */
+}
+
+.desk-video-tutor p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #242424;
+  text-align: center;
+}
+.tbl-info{
+  background: #34745C;
+  border-radius: 20px;
+  margin-top: -10px;
+  padding: 8px 15px 8px 15px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: 'inter', sans-serif;
+}
+.tbl-info-ikan{
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.text-content-informasi .tbl-info{
+  font-size: 12px;
+}
+.kolom-informasi .size-img{
+  width: 230px;
+  height: 150px;
+}
+.kolom-informasi .sizeh4{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: -10px;
+}
+.kolom-informasi .size-img-jenis{
+  width: 295px;
+  height: 200px;
+}
+.kolom-informasi .rata-font{
+  text-align: justify;
+}
+.text-content-informasi h2{
+  margin-bottom: -20px;
+  margin-top: -20px;
+}
+
+/* css video tutorial */
+.video-content .desk-size{
+  font-size: 12px;
+  text-align: left;
+  color: #044F1E;
+}
+.desk-size{
+  font-weight: bold;
+}
+.views-size{
+  font-size: 10px;
+}
+.kolom-video {
+  display: flex;
+  flex-direction: column; /* Menyusun elemen dalam kolom secara vertikal */
+  align-items: left; /* Menyelaraskan elemen ke tengah dalam kolom */
+  text-align: left; /* Menyelaraskan teks ke tengah */
+  background: white;
+  box-shadow: 0px 4px 5px rgb(94, 93, 93);
+  border-radius: 18px;
+  padding: 3px;
+  max-width: 250px;
+}
+.kolom-video .size-img{
+  border-radius: 18px;
+}
+.sejajar-views {
+  display: flex;
+  justify-content: space-between; /* Mengatur jarak sejajar secara otomatis */
+  padding: 5px 30px 5px 10px;
+}
+.views-size2{
+  font-size: 10px;
+  color: black;
+  font-weight: bold;
+}
+.ukuran-gambar {
+  width: 100%; /* Atur lebar sesuai kebutuhan, misalnya 100% untuk lebar penuh */
+  max-width: 250px; /* Atur lebar maksimum sesuai kebutuhan */
+  height: auto; /* Memastikan gambar mempertahankan rasio aspeknya */
+}

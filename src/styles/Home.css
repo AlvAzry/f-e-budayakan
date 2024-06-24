@@ -1,0 +1,270 @@
+.tengah {
+    text-align: center;
+    width: 100%;
+  }
+  
+  a.tbl-biru {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  a.tbl-biru:hover {
+    background: #fc5185;
+    text-decoration: none;
+  }
+  
+  a.tbl-pink {
+    background: #34745C;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'inter', sans-serif;
+  }
+  
+  a.tbl-pink:hover {
+    background-color: rgb(173, 15, 15);
+    text-decoration: none;
+  }
+  section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+  }
+  
+  p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    color: #373737;
+  }
+  .kolom1 .font-p{
+    text-align: justify;
+  }
+  .font-ol{
+    text-align: justify;
+  }
+  
+  .kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .kolom .deskripsi {
+    font-size: 15px;
+    font-family: 'inter', sans-serif;
+    color: #364f6b;
+  }
+  
+  h2 {
+    font-family: 'inter', sans-serif;
+    font-weight: 5000;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #044F1E;
+    width: 100%;
+    line-height: 50px;
+  }
+  h1{
+    font-family: 'inter', sans-serif;
+    color: #044F1E;
+    width: 100%;
+    font-size: 25px;
+  }
+  .kolom1 .sizeh1{
+    margin-top: 25px;
+  }
+  h4{
+    font-family: 'inter', sans-serif;
+    color: #044F1E;
+    width: 100%;
+    font-size: 25px;
+    text-align: left;
+  }
+  .kolom1 h4, .kolom1 p {
+    text-align: left;
+}
+
+  .tengah {
+    text-align: center;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 991.98px) {
+    section {
+      display: block;
+    }
+  
+    section img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* new */
+#kata-pembatas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#kata-pembatas h3 {
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 65px;
+    color: #044F1E;
+    line-height: 50px;
+}
+
+#kata-pembatas p {
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    color: #242424;
+    text-align: center; /* Tambahkan ini */
+    margin: 0; /* Tambahkan ini untuk menghapus margin default */
+}
+
+/*  3 gambar */
+#intro {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.kolom1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 300px;
+  margin: 20px;
+  background: white;
+  box-shadow: 0px 4px 8px rgb(94, 93, 93);
+  border-radius: 18px;
+  padding: 5px;
+}
+
+.kolom1 img {
+    width: 100%; /* Sesuaikan gambar dengan lebar div */
+    height: 220px; /* Tetapkan tinggi tetap */
+    object-fit: cover; /* Memastikan gambar menyesuaikan tanpa distorsi */
+    border-radius: 20px;
+}
+
+.kolom1 .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  color: #364f6b;
+  margin-top: 10px;
+}
+
+.kolom1 h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  margin: 10px 0;
+  color: #364f6b;
+}
+
+.kolom1 p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #242424;
+  text-align: center;
+}
+
+/* kolom2 */
+.kolom2 img {
+  width: 100%; /* Sesuaikan gambar dengan lebar div */
+  height: 220px; /* Tetapkan tinggi tetap */
+  object-fit: cover; /* Memastikan gambar menyesuaikan tanpa distorsi */
+}
+.kolom2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 300px;
+  margin: 20px;
+}
+.kolom2 .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  color: #364f6b;
+  margin-top: 10px;
+}
+.kolom2 p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #242424;
+  text-align: left;
+}
+.kolom2 h4{
+  margin: 20px 0 0 0; /* Menambah jarak antara gambar dan h4 */
+}
+
+
+#intro2 {
+  display: flex;
+  align-items: center;
+  padding: 20px; /* Optional: menambahkan padding untuk memberi jarak */
+}
+
+#intro2 img {
+  max-width: 100%;
+  margin-right: 70px; /* Atur jarak antara gambar dan teks */
+}
+
+.kolom {
+  flex: 1;
+  padding: 0 20px; /* Atur padding sesuai kebutuhan Anda */
+}
+
+ol {
+  padding-left: 20px; /* Atur padding untuk menambahkan indentasi pada daftar */
+}
+
+li {
+  margin-bottom: 10px; /* Atur jarak antara item daftar */
+}
+#intro2 .img-home{
+  border-radius: 40px;
+}
+.kolom1 .img-home{
+  border-radius: 25px;
+}
+#home .img-home{
+  border-radius: 30px;
+}
+.img-home{
+  box-shadow: 0px 4px 8px rgb(94, 93, 93);
+  background: white;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 500px;
+  margin: 20px;
+}
+.artikel {
+  background-color: #34745C; /* Memberikan background warna hijau */
+  padding: 10px 40px 10px 40px;
+  border-top-left-radius: 50px;
+  font-family: 'inter', sans-serif;
+  color: white;
+  font-size: 25px;
+  border-bottom-right-radius: 50px;
+  text-align: center; /* Opsional: Menyelaraskan teks ke tengah */
+}

@@ -1,0 +1,40 @@
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+    background-color: #34745C;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 8px;
+  }
+  .h5{
+    text-align: center;
+  }
+  #copyright h5{
+    font-size: 20px;
+    font: bold;
+  }
+  #copyright p {
+    color: white; /* Ubah warna teks menjadi putih */
+    font-size: 15px;
+    font-weight: 100;
+  }
+  .dividerr {
+    border: none; /* Hapus properti border */
+    border-top: 1px solid white; /* Atur ketebalan garis atas */
+    width: 100%; /* Menyesuaikan panjang garis */
+    margin: 20px auto; /* Menyesuaikan jarak vertikal garis */
+    transform: scaleY(0.5); /* Menipiskan garis secara vertikal */
+    margin-top: 10px;
+}
+.sejajar {
+  display: flex;
+  justify-content: space-between; /* Mengatur jarak sejajar secara otomatis */
+  padding: 10px 350px 10px 350px;
+}
+.social-icons{
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+

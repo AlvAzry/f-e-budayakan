@@ -1,0 +1,71 @@
+.wrapper {
+  padding: 20px;
+  font-family: 'inter', sans-serif;
+}
+
+.kolom-chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Detail-Profile {
+  width: 500px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+  height: auto;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  background: white;
+}
+
+.profile-content {
+  margin-left: 600px; /* Tambahkan margin kiri untuk memberi jarak antara gambar dan teks */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Mengatur teks berada di tengah vertikal */
+  margin-top: -345px;
+}
+
+.profile-content h7 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+  color: #0B573B;
+}
+
+.profile-content p {
+  font-size: 20px;
+  margin: 0;
+  color: #000000; /* Sesuaikan warna teks sesuai kebutuhan */
+  margin-top: 10px;
+}
+.boldP{
+  font-weight: bold;
+}
+
+.tbl-mulaichat {
+  background: #34745C;
+  border-radius: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: 'inter', sans-serif;
+}
+.colorDiskon{
+  color: #838080;
+  font-family: 'inter', sans-serif;
+  margin-bottom: 10px;
+}
+.divider {
+  border: none; /* Hapus properti border */
+  border-top: 1px solid black; /* Atur ketebalan garis atas */
+  width: 100%; /* Menyesuaikan panjang garis */
+  margin: 20px auto; /* Menyesuaikan jarak vertikal garis */
+  transform: scaleY(0.5); /* Menipiskan garis secara vertikal */
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.biografi{
+  text-align: justify;
+}

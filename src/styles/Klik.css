@@ -1,0 +1,81 @@
+.content-tips {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 1000px;
+}
+
+.tips-image {
+  width: 100%;
+  max-width: 400px;
+}
+.kolom-tips {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  font-family: 'inter', sans-serif;
+  margin-bottom: 100px;
+}
+.custom-h8{
+  color: #044F1E;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+
+.bahan {
+  margin-bottom: 20px; /* Jarak antara h4 dan gambar/daftar */
+
+}
+
+.bahan-container {
+  display: flex;
+  align-items: flex-start; /* Menyusun elemen dalam kontainer dari atas */
+  justify-content: center; /* Memposisikan elemen di tengah secara horizontal */
+}
+
+.bahan-image {
+  width: 110px; /* Ukuran gambar sesuai kebutuhan */
+  height: auto; /* Biarkan rasio aspek tetap terjaga */
+  margin-right: 20px; /* Jarak antara gambar dan daftar */
+  border-radius: 30px;
+  box-shadow: 0px 4px 8px rgb(94, 93, 93);
+}
+.tips-image{
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgb(94, 93, 93);
+}
+
+.bahan1 {
+  flex: 1; /* Membuat daftar memanjang sesuai konten */
+}
+
+.bahan ul {
+  padding-left: 0; /* Hapus padding default dari daftar */
+  margin-top: 0;
+}
+
+.bahan li {
+  margin-bottom: 10px; /* Jarak antara item dalam daftar */
+  margin-right: 100px;
+  margin-left: 20px;
+}
+
+.custom-h4 {
+  margin-bottom: 25px; /* Jarak antara h4 dan gambar/daftar */
+}
+.bahan ol {
+  padding-left: 0;
+  margin-top: 0;
+}
